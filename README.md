@@ -10,6 +10,8 @@ Project LATACA is designed to facilitate automatic transcription of interviews a
 - Conda package manager
 
 ### Setup Instructions:
+1. **Python Installation**: Obtain Python from the (official Python website)[https://www.python.org/downloads/].
+2. **Conda Installation**: Install Conda by following the (official Conda installation guide)[https://docs.conda.io/projects/conda/en/latest/user-guide/install/].
 1. **Fork the Repository**: Fork the project repository from GitHub to your account.
 
 2. **Clone Your Fork**: Clone the repository to your local machine.
@@ -44,7 +46,24 @@ Project LATACA is designed to facilitate automatic transcription of interviews a
 - The app will transcribe the audio and then apply the specified coding schemes.
 - Adjust the number of sentences for analysis and confidence levels for classification as needed.
 - Results can be exported in JSON or DOCX formats, and further analysis can be conducted with the provided content analysis tools.
-- Note: Only english transcriptions are supprted presently.
+- Content Analysis Configuration
+### After uploading your interview file, you can:
+- Set the unit of analysis for the ML model (number of sentences).
+- Modify codes for content analysis by entering different labels.
+- Adjust confidence levels to fine-tune the ML model's code assignment.
+### Data Processing and Exporting
+Once the interview is uploaded:
+- The app transcribes the content using the Whisper model.
+- Users can view the transcription and apply a coding scheme for sentiment analysis.
+- The processed data can be exported in JSON, CSV, or DOCX format.
+### Code Customization
+Users have the flexibility to:
+- Edit, add, or remove codes for content analysis.
+- View the resultant codes and their confidence scores, and make adjustments as necessary.
+### Language Support
+- Currently, LATACA supports English transcription and analysis.
+- Development for other language support is underway.
+
 
 ## Features
 - Transcription using Whisper model.
