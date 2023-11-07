@@ -1,307 +1,347 @@
 [
     {
         "speaker": 1,
-        "text": "Yeah two, three, for local corporate partners.",
+        "text": "Okay.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "Alright well, good evening everybody.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "Welcome Elon.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "Thanks for being here.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "Uh we feel we feel very privileged we're excited to have you.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "Right so, I'm gonna start with some questions and then we're gonna open it up.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "Let me get straight into it.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "So Bill Gates said there is no one in our time who has done more to push the bounds of science innovation than you.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "Yeah well, that's it.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "That's a nice thing to have s anyone say about you.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "Nice coming from Bill Gates.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "But oddly enough, when it comes to A.I. actually for around a decade, you've almost been doing the opposite and saying hang on we need to think about what we're doing and what we're pushing here and what do we do to make this safe and and actually maybe we shouldn't be pushing as faster uh as hard as we are.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "Like I mean you've been doing it for a decade.",
+        "timestamp": 0.0
+    },
+    {
+        "speaker": 1,
+        "text": "Like what was it that caused you to think about it that way and you know why do we need to be worried?",
         "timestamp": 0.0
     },
     {
         "speaker": 2,
-        "text": "Well are you saying six now, that's what I know.",
-        "timestamp": 1.52
-    },
-    {
-        "speaker": 1,
-        "text": "No the, six is the L G E.",
-        "timestamp": 2.7800000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "L G E.",
-        "timestamp": 2.7800000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "STAP.",
-        "timestamp": 2.7800000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "The three is two A.",
-        "timestamp": 2.7800000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "POC, the sta state minister of health.",
-        "timestamp": 2.7800000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "Then the ch uh the th six um ticker about is from the L G E.",
-        "timestamp": 2.7800000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "Yeah, uh the D.",
-        "timestamp": 2.7800000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "C.",
-        "timestamp": 2.7800000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "And the L G we have P H.C. manager, a lock-up ordinator, uh the texture of the H.I.B. services, the T.B. coordinator, um uh a personal health coordinator, the R.B.M. coordinator and, I think M.I.E_.",
-        "timestamp": 2.7800000000000002
+        "text": "With A.I. of it since I was immersed in um technology I have been immersed in technology for a long time I could see it coming.",
+        "timestamp": 59.2
     },
     {
         "speaker": 2,
-        "text": "Okay.",
-        "timestamp": 28.68
-    },
-    {
-        "speaker": 1,
-        "text": "So it's that's like the L G E level support, this RITI A.S.S.T. So.",
-        "timestamp": 29.12
+        "text": "Um so uh but I think this year was uh that there've been a number of of breakthroughs.",
+        "timestamp": 59.2
     },
     {
         "speaker": 2,
-        "text": "It's like in young training c uh technically and clinically young training the facility staff.",
-        "timestamp": 51.74
+        "text": "I mean w you know the point at which someone can see a dynamically created video of themselves um you know like it sorta could make a video of you saying anything in real time um or me um and uh so that sort of the the deep pick video is which are really incredibly good in sometimes more convincing than real ones um and a bit deep real um and um and then and then obviously th things like charge E.V.T. were were quite remarkable.",
+        "timestamp": 59.2
+    },
+    {
+        "speaker": 2,
+        "text": "Now I saw uh G.P.T. one G.P. two G.P.T. three G.P.T. four that th you know the whole sort of lead up to that.",
+        "timestamp": 59.2
+    },
+    {
+        "speaker": 2,
+        "text": "So it was easy for me to um to kind of s see where it's going.",
+        "timestamp": 59.2
+    },
+    {
+        "speaker": 2,
+        "text": "If you just sort of extrapolate the points on a curve, kind of seeing that trend will continue, then we will have um profound artificial intelligence and obviously at a level that far exceeds uh human intelligence.",
+        "timestamp": 59.2
+    },
+    {
+        "speaker": 2,
+        "text": "Um so um but I I'm I'm glad to see at this point that uh people are taking uh safety seriously and I'd I'd uh like to say tha thank you for holding this uh A.I. safety conference.",
+        "timestamp": 59.2
+    },
+    {
+        "speaker": 2,
+        "text": "I think actually it will go down in history as being very important.",
+        "timestamp": 59.2
+    },
+    {
+        "speaker": 2,
+        "text": "I think it's r it's really qu quite profound um and um and and I do think overall that the potential is there for a artificial intelligence A.I. have most likely a positive effect um and to create a future of abundance where there is no scarcity of goods and services.",
+        "timestamp": 59.2
+    },
+    {
+        "speaker": 2,
+        "text": "Um but but it is somewhat the of the the magic genie problem where if you have a magic genie that can grant all the wishes.",
+        "timestamp": 59.2
+    },
+    {
+        "speaker": 2,
+        "text": "Um usually those stories um don't end well.",
+        "timestamp": 59.2
+    },
+    {
+        "speaker": 2,
+        "text": "Be careful what you wish for, including wishes.",
+        "timestamp": 59.2
     },
     {
         "speaker": 1,
-        "text": "Okay.",
-        "timestamp": 56.54
+        "text": "you you you talked a little bit about the the summit and thank you for being engaged in it which has been great and people enjoyed having you there participating in this dialogue.",
+        "timestamp": 178.34
     },
     {
         "speaker": 1,
-        "text": "As they prof as they perform their duties their technical duties.",
-        "timestamp": 56.54
+        "text": "Now one of the things that we achieve today in the meetings between the companies and uh the leaders was uh an agreement that externally ideally governments should be doing safety testing of models before they're released.",
+        "timestamp": 178.34
+    },
+    {
+        "speaker": 1,
+        "text": "And I think this is something that you've spoken about a little bit.",
+        "timestamp": 178.34
+    },
+    {
+        "speaker": 1,
+        "text": "It was something we worked really hard on because you know my job in is to say hang on there is a potential risk here not, a not a definite risk but a potential risk of something that could be bad.",
+        "timestamp": 178.34
+    },
+    {
+        "speaker": 1,
+        "text": "You know my job is to protect the country and we can only do that if we develop the capability we need in our safety institute and then go in and make sure we can test the models before they are released Delighted.",
+        "timestamp": 178.34
+    },
+    {
+        "speaker": 1,
+        "text": "that that happened today.",
+        "timestamp": 178.34
+    },
+    {
+        "speaker": 1,
+        "text": "But you know what what's your view on what we should be doing, right You've?",
+        "timestamp": 178.34
+    },
+    {
+        "speaker": 1,
+        "text": "talked about the potential risk, right?",
+        "timestamp": 178.34
+    },
+    {
+        "speaker": 1,
+        "text": "Again we don't know.",
+        "timestamp": 178.34
+    },
+    {
+        "speaker": 1,
+        "text": "But you know what are the types of things governments like ours should be doing to manage and mitigate against these risks.",
+        "timestamp": 178.34
+    },
+    {
+        "speaker": 2,
+        "text": "Well I I generally think that that it is good for government to play a role when the public safety is is at risk.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "So um you know f really for the vast majority of software um the public safety is not at risk.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "I mean if if the if the uh app crashes on your phone or a laptop it's not a c a massive catastrophe.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "Um but when you talking about digital super-intelligence I think w which does pose a a risk to the public then there is a role for government to play to safeguard the interests of the public.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "And and this is of course true in in many fields um you know aviation, cars uh you know I I I d I deal with regulators uh throughout the world uh because of um s installing being communications, rockets being aerospace and cars you know being trac vehicle transport.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "So I'm very familiar with dealing with with regulators um and I actually agree with the vast majority of regulations.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "There's a few that I disagree with from time to time but point one percent probably have or le less than one percent of regulations I disagree with.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "So and there is some concern from uh people in Silicon Valley who who've never ha dealt with regulators before and they think that this is gonna just crush innovation and and slow them down and be annoying.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "But and and and uh it will be annoying it's, true Um. they're not wrong about that.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "Um but but I think there's we've learnt over the years that uh having a referee is a good thing.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "And if you look at any sports game there's always a a referee.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "And and nobody's suggesting I think to have a sports game without one.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "Um and and I think that's the the right way to think about this is for um for government to be a a referee to make sure the sportsmen like conduct and and and that the public safety is um you know i i i is addressed that we care about the public safety.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "Because I th I think there might be t at times too much optimism about technology.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "And I speak I say that as a technologist I mean so I ought to know.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "And and uh and and like I said a on on balance I think that that the A.I. will be a a forceful good most likely.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "But the probability of it going bad is not zero percent.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 2,
+        "text": "So we we just need to mitigate the downside potential.",
+        "timestamp": 238.9
+    },
+    {
+        "speaker": 1,
+        "text": "And then how uh you talk about referee and that's what we're trying to create Yeah.",
+        "timestamp": 374.14
+    },
+    {
+        "speaker": 1,
+        "text": "well there we go.",
+        "timestamp": 374.14
+    },
+    {
+        "speaker": 1,
+        "text": "I mean you know and we talk about this and Demas and I discussed this a long time ago.",
+        "timestamp": 374.14
+    },
+    {
+        "speaker": 1,
+        "text": "And actually you know Demas to his credit and the credit of people in the industry did say that to us.",
+        "timestamp": 374.14
+    },
+    {
+        "speaker": 1,
+        "text": "I think you know Demas says it's not right that Demas and his colleagues are marking their own homework right, There.",
+        "timestamp": 374.14
+    },
+    {
+        "speaker": 1,
+        "text": "needs to be someone independent and that's why we've developed a safety institute here.",
+        "timestamp": 374.14
+    },
+    {
+        "speaker": 1,
+        "text": "I mean do you think governments can develop the expertise One?",
+        "timestamp": 374.14
+    },
+    {
+        "speaker": 1,
+        "text": "of the things we need to do is they hang on you, know, Demas and Sam all the others have got a lot of very smart people doing this.",
+        "timestamp": 374.14
+    },
+    {
+        "speaker": 1,
+        "text": "Governments need to quickly tool up capability-wise, personnel-wise, so which is what we're doing.",
+        "timestamp": 374.14
+    },
+    {
+        "speaker": 1,
+        "text": "I I mean do you think it is possible for governments to do that fast enough given how quickly the technology is developing?",
+        "timestamp": 374.14
+    },
+    {
+        "speaker": 1,
+        "text": "Or what do we need to do to make sure we do do it quick enough?",
+        "timestamp": 374.14
     },
     {
         "speaker": 2,
         "text": "Mm-hmm.",
-        "timestamp": 62.739999999999995
+        "timestamp": 432.2
     },
     {
         "speaker": 2,
-        "text": "Okay.",
-        "timestamp": 62.739999999999995
+        "text": "be growing in capability by at at least five fold perhaps ten fold per year.",
+        "timestamp": 432.2
     },
     {
         "speaker": 2,
-        "text": "And remote connections so that the care will be improved.",
-        "timestamp": 62.739999999999995
+        "text": "It it'll certainly grow by an order of magnitude next year.",
+        "timestamp": 432.2
     },
     {
         "speaker": 2,
-        "text": "Um",
-        "timestamp": 62.739999999999995
-    },
-    {
-        "speaker": 1,
-        "text": "Initiative.",
-        "timestamp": 84.86
-    },
-    {
-        "speaker": 2,
-        "text": "It is an initiative.",
-        "timestamp": 88.60000000000001
-    },
-    {
-        "speaker": 1,
-        "text": "Oh yeah, I see.",
-        "timestamp": 89.48
-    },
-    {
-        "speaker": 1,
-        "text": "So thank you for that uh that education.",
-        "timestamp": 89.48
-    },
-    {
-        "speaker": 1,
-        "text": "Um how long has it been working in this role?",
-        "timestamp": 89.48
-    },
-    {
-        "speaker": 2,
-        "text": "Yeah, I started FLEB Okay, twenty twenty seven.",
-        "timestamp": 96.56
-    },
-    {
-        "speaker": 1,
-        "text": "Twenty twenty two.",
-        "timestamp": 100.10000000000001
-    },
-    {
-        "speaker": 1,
-        "text": "So it has to be split.",
-        "timestamp": 100.10000000000001
-    },
-    {
-        "speaker": 2,
-        "text": "Okay.",
-        "timestamp": 102.16
-    },
-    {
-        "speaker": 2,
-        "text": "So before before this role have, you held any other roles in PILOT?",
-        "timestamp": 102.16
-    },
-    {
-        "speaker": 1,
-        "text": "Yes, I held roles in PILOT, but not in JAPPAI work.",
-        "timestamp": 108.12
-    },
-    {
-        "speaker": 1,
-        "text": "Yeah, in my institution.",
-        "timestamp": 108.12
-    },
-    {
-        "speaker": 1,
-        "text": "I worked with uh I worked before I joined PILOT.",
-        "timestamp": 108.12
-    },
-    {
-        "speaker": 1,
-        "text": "I worked with PILOT medical centre in N.O. CUBU.",
-        "timestamp": 108.12
-    },
-    {
-        "speaker": 1,
-        "text": "Yes, I uh and uh worked as a doctoratee officer, and the T.B. clinic.",
-        "timestamp": 108.12
-    },
-    {
-        "speaker": 2,
-        "text": "Yes.",
-        "timestamp": 125.68
-    },
-    {
-        "speaker": 2,
-        "text": "Okay, so you're the what are you?",
-        "timestamp": 125.68
-    },
-    {
-        "speaker": 1,
-        "text": "Quality improvement team of the facility.",
-        "timestamp": 129.34
-    },
-    {
-        "speaker": 2,
-        "text": "I see I.",
-        "timestamp": 131.28
-    },
-    {
-        "speaker": 2,
-        "text": "see.",
-        "timestamp": 131.28
-    },
-    {
-        "speaker": 2,
-        "text": "So that's where you've worked before in PILOT.",
-        "timestamp": 131.28
-    },
-    {
-        "speaker": 2,
-        "text": "Have you worked anywhere else in PILOT?",
-        "timestamp": 131.28
-    },
-    {
-        "speaker": 2,
-        "text": "How far has an end-world program been in the JAPPAI work?",
-        "timestamp": 131.28
-    },
-    {
-        "speaker": 1,
-        "text": "I w I work with um uh I work with uh Heartland Alliance.",
-        "timestamp": 141.34
-    },
-    {
-        "speaker": 1,
-        "text": "Uh uh uh uh uh local service provider, H.I.V. We work with key population.",
-        "timestamp": 141.34
-    },
-    {
-        "speaker": 2,
-        "text": "Heartland is actually what?",
-        "timestamp": 153.44
-    },
-    {
-        "speaker": 1,
-        "text": "Heartland is an NGO working on key population, H.I.V. key population.",
-        "timestamp": 155.62
-    },
-    {
-        "speaker": 2,
-        "text": "Yeah, key piece.",
-        "timestamp": 161.5
-    },
-    {
-        "speaker": 1,
-        "text": "Oh, okay thank, you very much.",
-        "timestamp": 162.24
-    },
-    {
-        "speaker": 1,
-        "text": "So um can you uh um in terms of the design of this QI um intervention that JAPPAI works lead, were you part of the design at the design set at the initial stage?",
-        "timestamp": 162.24
-    },
-    {
-        "speaker": 2,
-        "text": "No no, sir, I was not part of the initial stage uh c yeah.",
-        "timestamp": 181.46
-    },
-    {
-        "speaker": 1,
-        "text": "Obviously uh but uh",
-        "timestamp": 184.84
-    },
-    {
-        "speaker": 2,
-        "text": "After they spent a year.",
-        "timestamp": 186.60000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "Yeah, obviously.",
-        "timestamp": 187.54000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "You said you started a firm already, so it's not too much uh",
-        "timestamp": 187.54000000000002
-    },
-    {
-        "speaker": 2,
-        "text": "Since twenty twenty two.",
-        "timestamp": 191.72
-    },
-    {
-        "speaker": 1,
-        "text": "Oh, you've been here to set it in t but they have been here to twenty two.",
-        "timestamp": 193.42000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "Oh, I think that's great.",
-        "timestamp": 193.42000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "Um so but you're obviously a part of the implementation since you've been implementing since the twenty two years.",
-        "timestamp": 193.42000000000002
-    },
-    {
-        "speaker": 2,
-        "text": "Yeah, I see.",
-        "timestamp": 203.42000000000002
-    },
-    {
-        "speaker": 1,
-        "text": "So um so apart from these three roles that you say you had,",
-        "timestamp": 204.88
+        "text": "So um",
+        "timestamp": 432.2
     }
 ]

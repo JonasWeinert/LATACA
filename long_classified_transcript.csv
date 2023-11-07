@@ -1,15 +1,43 @@
 text,label,score,timestamp,speaker
-"No the, six is the L G E. L G E.",gender,0.8826011419296265,2.7800000000000002,1
-"POC, the sta state minister of health. Then the ch uh the th six um ticker about is from the L G E.",gender,0.7168519496917725,2.7800000000000002,1
-"And the L G we have P H.C. manager, a lock-up ordinator, uh the texture of the H.I.B. services, the T.B. coordinator, um uh a personal health coordinator, the R.B.M. coordinator and, I think M.I.E_.",gender,0.9624669551849365,2.7800000000000002,1
-"And the L G we have P H.C. manager, a lock-up ordinator, uh the texture of the H.I.B. services, the T.B. coordinator, um uh a personal health coordinator, the R.B.M. coordinator and, I think M.I.E_.",safety,0.7684261798858643,2.7800000000000002,1
-Okay.,environment,0.7113502621650696,28.68,2
-"So it's that's like the L G E level support, this RITI A.S.S.T. So.",gender,0.9151685833930969,29.12,1
-It's like in young training c uh technically and clinically young training the facility staff.,environment,0.9099186062812805,51.74,2
-And remote connections so that the care will be improved. Um,environment,0.7827542424201965,62.739999999999995,2
-Initiative.,AI,0.9416753649711609,84.86,1
-Twenty twenty two. So it has to be split.,environment,0.7955164909362793,100.10000000000001,1
-"Yes. Okay, so you're the what are you?",gender,0.909524142742157,125.68,2
-I see I. see.,environment,0.7288060188293457,131.28,2
-"No no, sir, I was not part of the initial stage uh c yeah.",environment,0.7168603539466858,181.46,2
-Since twenty twenty two.,environment,0.7547869682312012,191.72,2
+"Okay. Alright well, good evening everybody.",environment,0.5976117253303528,0.0,1
+"Okay. Alright well, good evening everybody.",safety,0.5813780426979065,0.0,1
+Welcome Elon. Thanks for being here.,environment,0.6044802665710449,0.0,1
+Welcome Elon. Thanks for being here.,safety,0.570954442024231,0.0,1
+"Uh we feel we feel very privileged we're excited to have you. Right so, I'm gonna start with some questions and then we're gonna open it up.",environment,0.7372773289680481,0.0,1
+"Uh we feel we feel very privileged we're excited to have you. Right so, I'm gonna start with some questions and then we're gonna open it up.",safety,0.6687701344490051,0.0,1
+"Yeah well, that's it. That's a nice thing to have s anyone say about you.",environment,0.5097339749336243,0.0,1
+"Nice coming from Bill Gates. But oddly enough, when it comes to A.I. actually for around a decade, you've almost been doing the opposite and saying hang on we need to think about what we're doing and what we're pushing here and what do we do to make this safe and and actually maybe we shouldn't be pushing as faster uh as hard as we are.",AI,0.9927104115486145,0.0,1
+"Nice coming from Bill Gates. But oddly enough, when it comes to A.I. actually for around a decade, you've almost been doing the opposite and saying hang on we need to think about what we're doing and what we're pushing here and what do we do to make this safe and and actually maybe we shouldn't be pushing as faster uh as hard as we are.",safety,0.9856116771697998,0.0,1
+With A.I. of it since I was immersed in um technology I have been immersed in technology for a long time I could see it coming. Um so uh but I think this year was uh that there've been a number of of breakthroughs.,AI,0.9884392619132996,59.2,2
+With A.I. of it since I was immersed in um technology I have been immersed in technology for a long time I could see it coming. Um so uh but I think this year was uh that there've been a number of of breakthroughs.,safety,0.4694660007953644,59.2,2
+With A.I. of it since I was immersed in um technology I have been immersed in technology for a long time I could see it coming. Um so uh but I think this year was uh that there've been a number of of breakthroughs.,environment,0.4051598310470581,59.2,2
+"So it was easy for me to um to kind of s see where it's going. If you just sort of extrapolate the points on a curve, kind of seeing that trend will continue, then we will have um profound artificial intelligence and obviously at a level that far exceeds uh human intelligence.",AI,0.9495446085929871,59.2,2
+Um so um but I I'm I'm glad to see at this point that uh people are taking uh safety seriously and I'd I'd uh like to say tha thank you for holding this uh A.I. safety conference. I think actually it will go down in history as being very important.,safety,0.9950166940689087,59.2,2
+Um so um but I I'm I'm glad to see at this point that uh people are taking uh safety seriously and I'd I'd uh like to say tha thank you for holding this uh A.I. safety conference. I think actually it will go down in history as being very important.,AI,0.9243884086608887,59.2,2
+I think it's r it's really qu quite profound um and um and and I do think overall that the potential is there for a artificial intelligence A.I. have most likely a positive effect um and to create a future of abundance where there is no scarcity of goods and services. Um but but it is somewhat the of the the magic genie problem where if you have a magic genie that can grant all the wishes.,AI,0.8469934463500977,59.2,2
+"Um usually those stories um don't end well. Be careful what you wish for, including wishes.",environment,0.43326058983802795,59.2,2
+you you you talked a little bit about the the summit and thank you for being engaged in it which has been great and people enjoyed having you there participating in this dialogue. Now one of the things that we achieve today in the meetings between the companies and uh the leaders was uh an agreement that externally ideally governments should be doing safety testing of models before they're released.,safety,0.9968075752258301,178.34,1
+you you you talked a little bit about the the summit and thank you for being engaged in it which has been great and people enjoyed having you there participating in this dialogue. Now one of the things that we achieve today in the meetings between the companies and uh the leaders was uh an agreement that externally ideally governments should be doing safety testing of models before they're released.,AI,0.5439673066139221,178.34,1
+you you you talked a little bit about the the summit and thank you for being engaged in it which has been great and people enjoyed having you there participating in this dialogue. Now one of the things that we achieve today in the meetings between the companies and uh the leaders was uh an agreement that externally ideally governments should be doing safety testing of models before they're released.,environment,0.47675710916519165,178.34,1
+"And I think this is something that you've spoken about a little bit. It was something we worked really hard on because you know my job in is to say hang on there is a potential risk here not, a not a definite risk but a potential risk of something that could be bad.",safety,0.6915594339370728,178.34,1
+"And I think this is something that you've spoken about a little bit. It was something we worked really hard on because you know my job in is to say hang on there is a potential risk here not, a not a definite risk but a potential risk of something that could be bad.",environment,0.580450713634491,178.34,1
+You know my job is to protect the country and we can only do that if we develop the capability we need in our safety institute and then go in and make sure we can test the models before they are released Delighted. that that happened today.,safety,0.9797444343566895,178.34,1
+"But you know what what's your view on what we should be doing, right You've? talked about the potential risk, right?",environment,0.443865031003952,178.34,1
+Again we don't know. But you know what are the types of things governments like ours should be doing to manage and mitigate against these risks.,environment,0.40314391255378723,178.34,1
+Well I I generally think that that it is good for government to play a role when the public safety is is at risk. So um you know f really for the vast majority of software um the public safety is not at risk.,safety,0.8687371015548706,238.9,2
+I mean if if the if the uh app crashes on your phone or a laptop it's not a c a massive catastrophe. Um but when you talking about digital super-intelligence I think w which does pose a a risk to the public then there is a role for government to play to safeguard the interests of the public.,AI,0.735978364944458,238.9,2
+I mean if if the if the uh app crashes on your phone or a laptop it's not a c a massive catastrophe. Um but when you talking about digital super-intelligence I think w which does pose a a risk to the public then there is a role for government to play to safeguard the interests of the public.,safety,0.47170567512512207,238.9,2
+"But and and and uh it will be annoying it's, true Um. they're not wrong about that. Um but but I think there's we've learnt over the years that uh having a referee is a good thing.",environment,0.5688015222549438,238.9,2
+Um and and I think that's the the right way to think about this is for um for government to be a a referee to make sure the sportsmen like conduct and and and that the public safety is um you know i i i is addressed that we care about the public safety. Because I th I think there might be t at times too much optimism about technology.,safety,0.9883159399032593,238.9,2
+And I speak I say that as a technologist I mean so I ought to know. And and uh and and like I said a on on balance I think that that the A.I. will be a a forceful good most likely.,AI,0.977617084980011,238.9,2
+And I speak I say that as a technologist I mean so I ought to know. And and uh and and like I said a on on balance I think that that the A.I. will be a a forceful good most likely.,safety,0.41683053970336914,238.9,2
+But the probability of it going bad is not zero percent. So we we just need to mitigate the downside potential.,environment,0.6489400267601013,238.9,2
+But the probability of it going bad is not zero percent. So we we just need to mitigate the downside potential.,AI,0.47447341680526733,238.9,2
+I mean you know and we talk about this and Demas and I discussed this a long time ago. And actually you know Demas to his credit and the credit of people in the industry did say that to us.,safety,0.6481967568397522,374.14,1
+I mean you know and we talk about this and Demas and I discussed this a long time ago. And actually you know Demas to his credit and the credit of people in the industry did say that to us.,environment,0.513621985912323,374.14,1
+"I think you know Demas says it's not right that Demas and his colleagues are marking their own homework right, There. needs to be someone independent and that's why we've developed a safety institute here.",safety,0.9726608991622925,374.14,1
+"I mean do you think governments can develop the expertise One? of the things we need to do is they hang on you, know, Demas and Sam all the others have got a lot of very smart people doing this.",safety,0.4808763265609741,374.14,1
+Or what do we need to do to make sure we do do it quick enough?,environment,0.6285971403121948,374.14,1
+Or what do we need to do to make sure we do do it quick enough?,safety,0.6155201196670532,374.14,1
+Mm-hmm. be growing in capability by at at least five fold perhaps ten fold per year.,environment,0.47843387722969055,432.2,2
+It it'll certainly grow by an order of magnitude next year. So um,environment,0.6458895802497864,432.2,2

@@ -7,7 +7,7 @@ custom = 2
 
 
 # Start Front End interface
-st.set_page_config(page_title='ODKCleaner', page_icon="🧡", layout="wide")
+st.set_page_config(page_title='LATACA', page_icon="🧡", layout="wide")
 
 
 
@@ -28,14 +28,14 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 ################### Front End ###################
 # Set Front End appearance
-st.title('Local Qual Transcribe & Code') # Title
+st.title('Local Automated Transcription and Content Analysis') # Title
 st.markdown('This app automatically transcribes interviews (ASR) & can apply coding schemes for sentiment analysis.') # First paragraph
 st.subheader('Upload your Interview') # Upload prompt
-st.markdown('Please upload your interview as a .wav file. You can use [VLC (free)](https://www.videolan.org) to convert pretty much any media file into wav') # First paragraph
+st.markdown('Please slect your interview:') # First paragraph
 uploaded_file = st.file_uploader('Choose your Interview') # Save file to memory for duration of session
 # Sidebar 
 with st.sidebar:
-    st.title('Fancy a custome pipeline for your use case?')
+    st.title('Fancy a custom pipeline for your use case?')
     st.sidebar.write("")
     st.markdown('##### To get specialised advice and assistance on batch processing, custom workflows and other aspects of your data projects, reach out via: ')
     st.markdown('[LinkedIn](https://www.linkedin.com/in/jweinert1997/)')
