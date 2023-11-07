@@ -10,8 +10,8 @@ Project LATACA is designed to facilitate automatic transcription of interviews a
 - Conda package manager
 
 ### Setup Instructions:
-1. **Python Installation**: Obtain Python from the (official Python website)[https://www.python.org/downloads/].
-2. **Conda Installation**: Install Conda by following the (official Conda installation guide)[https://docs.conda.io/projects/conda/en/latest/user-guide/install/].
+1. **Python Installation**: Obtain Python from the [official Python website](https://www.python.org/downloads/).
+2. **Conda Installation**: Install Conda by following the [official Conda installation guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
 1. **Fork the Repository**: Fork the project repository from GitHub to your account.
 
 2. **Clone Your Fork**: Clone the repository to your local machine.
