@@ -1,0 +1,356 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transcript Visualization</title>
+        <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .entry { margin-bottom: 10px; padding: 10px; border-left: 3px solid #808080; }
+        .speaker-icon { display: inline-block; width: 20px; height: 20px; background-color: #4CAF50; border-radius: 50%; margin-right: 10px; }
+        .speaker2 .speaker-icon { background-color: #2196F3; }
+        .speaker { font-weight: bold; margin-right: 5px; }
+        .timestamp { font-size: 0.85em; color: #555; }
+        [data-tooltip] {
+        position: relative;
+        cursor: pointer;
+        overflow: visible;
+        }
+        [data-tooltip]:before {
+        content: attr(data-tooltip);
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: pre-wrap;
+        max-width: 200px;
+        padding: 2px;
+        border-radius: 5px;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        font-size: 12px;
+        text-align: left;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s ease;
+        z-index: 100;
+        }
+        [data-tooltip]:hover:before, [data-tooltip]:hover:after {
+        visibility: visible;
+        opacity: 1;
+        }
+        [data-tooltip]:after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.7) transparent transparent transparent;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s ease;
+        }
+        </style>
+        </head>
+        <body>
+        
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Yeah two, three, for local corporate partners.</p>
+                    <span class="timestamp">00:00:00</span>
+                </div>
+                
+                <div class="entry speaker2">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>Well are you saying six now, that's what I know.</p>
+                    <span class="timestamp">00:00:01</span>
+                </div>
+                
+                <div class="entry speaker1" data-tooltip='gender (0.88)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>No the, six is the L G E. L G E.</p>
+                    <span class="timestamp">00:00:02</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>STAP. The three is two A.</p>
+                    <span class="timestamp">00:00:02</span>
+                </div>
+                
+                <div class="entry speaker1" data-tooltip='gender (0.72)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>POC, the sta state minister of health. Then the ch uh the th six um ticker about is from the L G E.</p>
+                    <span class="timestamp">00:00:02</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Yeah, uh the D. C.</p>
+                    <span class="timestamp">00:00:02</span>
+                </div>
+                
+                <div class="entry speaker1" data-tooltip='gender (0.96), safety (0.77)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>And the L G we have P H.C. manager, a lock-up ordinator, uh the texture of the H.I.B. services, the T.B. coordinator, um uh a personal health coordinator, the R.B.M. coordinator and, I think M.I.E_.</p>
+                    <span class="timestamp">00:00:02</span>
+                </div>
+                
+                <div class="entry speaker2" data-tooltip='environment (0.71)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>Okay.</p>
+                    <span class="timestamp">00:00:28</span>
+                </div>
+                
+                <div class="entry speaker1" data-tooltip='gender (0.92)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>So it's that's like the L G E level support, this RITI A.S.S.T. So.</p>
+                    <span class="timestamp">00:00:29</span>
+                </div>
+                
+                <div class="entry speaker2" data-tooltip='environment (0.91)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>It's like in young training c uh technically and clinically young training the facility staff.</p>
+                    <span class="timestamp">00:00:51</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Okay. As they prof as they perform their duties their technical duties.</p>
+                    <span class="timestamp">00:00:56</span>
+                </div>
+                
+                <div class="entry speaker2">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>Mm-hmm. Okay.</p>
+                    <span class="timestamp">00:01:02</span>
+                </div>
+                
+                <div class="entry speaker2" data-tooltip='environment (0.78)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>And remote connections so that the care will be improved. Um</p>
+                    <span class="timestamp">00:01:02</span>
+                </div>
+                
+                <div class="entry speaker1" data-tooltip='AI (0.94)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Initiative.</p>
+                    <span class="timestamp">00:01:24</span>
+                </div>
+                
+                <div class="entry speaker2">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>It is an initiative.</p>
+                    <span class="timestamp">00:01:28</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Oh yeah, I see. So thank you for that uh that education.</p>
+                    <span class="timestamp">00:01:29</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Um how long has it been working in this role?</p>
+                    <span class="timestamp">00:01:29</span>
+                </div>
+                
+                <div class="entry speaker2">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>Yeah, I started FLEB Okay, twenty twenty seven.</p>
+                    <span class="timestamp">00:01:36</span>
+                </div>
+                
+                <div class="entry speaker1" data-tooltip='environment (0.80)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Twenty twenty two. So it has to be split.</p>
+                    <span class="timestamp">00:01:40</span>
+                </div>
+                
+                <div class="entry speaker2">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>Okay. So before before this role have, you held any other roles in PILOT?</p>
+                    <span class="timestamp">00:01:42</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Yes, I held roles in PILOT, but not in JAPPAI work. Yeah, in my institution.</p>
+                    <span class="timestamp">00:01:48</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>I worked with uh I worked before I joined PILOT. I worked with PILOT medical centre in N.O. CUBU.</p>
+                    <span class="timestamp">00:01:48</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Yes, I uh and uh worked as a doctoratee officer, and the T.B. clinic.</p>
+                    <span class="timestamp">00:01:48</span>
+                </div>
+                
+                <div class="entry speaker2" data-tooltip='gender (0.91)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>Yes. Okay, so you're the what are you?</p>
+                    <span class="timestamp">00:02:05</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Quality improvement team of the facility.</p>
+                    <span class="timestamp">00:02:09</span>
+                </div>
+                
+                <div class="entry speaker2" data-tooltip='environment (0.73)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>I see I. see.</p>
+                    <span class="timestamp">00:02:11</span>
+                </div>
+                
+                <div class="entry speaker2">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>So that's where you've worked before in PILOT. Have you worked anywhere else in PILOT?</p>
+                    <span class="timestamp">00:02:11</span>
+                </div>
+                
+                <div class="entry speaker2">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>How far has an end-world program been in the JAPPAI work?</p>
+                    <span class="timestamp">00:02:11</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>I w I work with um uh I work with uh Heartland Alliance. Uh uh uh uh uh local service provider, H.I.V. We work with key population.</p>
+                    <span class="timestamp">00:02:21</span>
+                </div>
+                
+                <div class="entry speaker2">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>Heartland is actually what?</p>
+                    <span class="timestamp">00:02:33</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Heartland is an NGO working on key population, H.I.V. key population.</p>
+                    <span class="timestamp">00:02:35</span>
+                </div>
+                
+                <div class="entry speaker2">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>Yeah, key piece.</p>
+                    <span class="timestamp">00:02:41</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Oh, okay thank, you very much. So um can you uh um in terms of the design of this QI um intervention that JAPPAI works lead, were you part of the design at the design set at the initial stage?</p>
+                    <span class="timestamp">00:02:42</span>
+                </div>
+                
+                <div class="entry speaker2" data-tooltip='environment (0.72)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>No no, sir, I was not part of the initial stage uh c yeah.</p>
+                    <span class="timestamp">00:03:01</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Obviously uh but uh</p>
+                    <span class="timestamp">00:03:04</span>
+                </div>
+                
+                <div class="entry speaker2">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>After they spent a year.</p>
+                    <span class="timestamp">00:03:06</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Yeah, obviously. You said you started a firm already, so it's not too much uh</p>
+                    <span class="timestamp">00:03:07</span>
+                </div>
+                
+                <div class="entry speaker2" data-tooltip='environment (0.75)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>Since twenty twenty two.</p>
+                    <span class="timestamp">00:03:11</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Oh, you've been here to set it in t but they have been here to twenty two. Oh, I think that's great.</p>
+                    <span class="timestamp">00:03:13</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Um so but you're obviously a part of the implementation since you've been implementing since the twenty two years.</p>
+                    <span class="timestamp">00:03:13</span>
+                </div>
+                
+                <div class="entry speaker2">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>Yeah, I see.</p>
+                    <span class="timestamp">00:03:23</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>So um so apart from these three roles that you say you had,</p>
+                    <span class="timestamp">00:03:24</span>
+                </div>
+                
+        </body>
+        </html>
+        
