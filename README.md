@@ -28,7 +28,7 @@ Project LATACA is designed to facilitate automatic transcription of interviews a
      ```
    - Activate the conda environment:
      ```
-     conda activate qualresnlp
+     conda activate transcribe
      ```
 
 4. **Run the Streamlit App**:
