@@ -1,6 +1,6 @@
 
-# Exclude all CSS files
-*.css
+# Exclude all CSV files
+*.csv
 
 # Exclude all JSON files
 *.json
