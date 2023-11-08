@@ -13,3 +13,13 @@
 
 # Exclude Mac OS log bullshit
 *.DS_Store
+
+# Exclude all media files
+*.mp3
+*.wav
+*.aiff
+*.m4a
+*.mp4
+*.mov
+*.webm
+
