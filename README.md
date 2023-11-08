@@ -30,11 +30,17 @@ Project LATACA is designed to facilitate automatic transcription of interviews a
      ```
      conda activate transcribe
      ```
+    - Load the ASR model from the Internet:
+  ```
+  pip install git+https://github.com/akashmjn/tinydiarize.git
+  ```
+
+          
+
 
 4. **Run the Streamlit App**:
-   - Execute the following commands:
+   - Execute the following command:
      ```
-     pip install "git+https://github.com/akashmjn/tinydiarize.git"
      streamlit run app.py
      ```
 
