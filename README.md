@@ -15,12 +15,12 @@ Project LATACA is designed to facilitate automatic transcription of interviews a
 1. **Fork the Repository**: Fork the project repository from GitHub to your account.
 
 2. **Clone Your Fork**: Clone the repository to your local machine.
-   ```git clone https://github.com/YOUR_USERNAME/QualresNLP.git``` or use the GitHub Desktop client.
+   ```git clone https://github.com/YOUR_USERNAME/LATACA.git``` or use the GitHub Desktop client.
 
 3. **Conda Environment**:
    - Navigate to the project directory:
      ```
-     cd QualresNLP
+     cd *PATH_TO_YOUR_CLONE*
      ```
    - Create a conda environment using the `environment.yaml` file provided in the repository:
      ```
