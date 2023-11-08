@@ -55,6 +55,8 @@ with st.sidebar:
 path_original = 'cleaned_transcript_original.json'
 path_sentences = 'cleaned_transcript_sentences.json'
 path_sentence_quads = 'cleaned_transcript_sentence_custom.json'
+resulttrans = 'result.json'
+
 
 # Import Interview
 import whisper
@@ -81,7 +83,7 @@ def Automated_Speech_recognition(uploaded_file):
     result = whisper.transcribe(model, saved_path, verbose=True, condition_on_previous_text=True)
 
     # Save the result to 'result.json'
-    with open('result.json', 'w') as json_file:
+    with open(resulttrans, 'w') as json_file:
         json.dump(result, json_file, ensure_ascii=False, indent=4)
 
     return result  # You may return the result or a path to the saved file
@@ -95,9 +97,9 @@ if uploaded_file is not None:
     # Transcribe
     model = whisper.load_model("small.en-tdrz")
     result = Automated_Speech_recognition(uploaded_file)
-    with open('result.json', 'w') as json_file:
+    with open(resulttrans, 'w') as json_file:
         json.dump(result, json_file, ensure_ascii=False, indent=4)
-    if 'result.json' is not None:
+    if resulttrans is not None:
         st.success('Transcription complete')
     st.markdown('----------')
 with st.expander("Settings"):
@@ -111,13 +113,13 @@ with st.expander("Settings"):
 
 
 ################# Transcript Export #################
-if 'result.json' is not None:
+if resulttrans is not None:
     tab1, tab2 = st.tabs(["Transcript", "QCA/Sentiment Analysis"])
 
 # Clean and Export transcript
     import re
     # Load the JSON data
-    with open('result.json', 'r') as file:
+    with open(resulttrans, 'r') as file:
         transcription_result = json.load(file)
 
     # Remove 'before_speaker_turn' keys and split text at '[SPEAKER TURN]'

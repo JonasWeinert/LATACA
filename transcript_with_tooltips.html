@@ -1,0 +1,132 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transcript Visualization</title>
+        <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .entry { margin-bottom: 10px; padding: 10px; border-left: 3px solid #808080; }
+        .speaker-icon { display: inline-block; width: 20px; height: 20px; background-color: #4CAF50; border-radius: 50%; margin-right: 10px; }
+        .speaker2 .speaker-icon { background-color: #2196F3; }
+        .speaker { font-weight: bold; margin-right: 5px; }
+        .timestamp { font-size: 0.85em; color: #555; }
+        [data-tooltip] {
+        position: relative;
+        cursor: pointer;
+        overflow: visible;
+        }
+        [data-tooltip]:before {
+        content: attr(data-tooltip);
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: pre-wrap;
+        max-width: 200px;
+        padding: 2px;
+        border-radius: 5px;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        font-size: 12px;
+        text-align: left;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s ease;
+        z-index: 100;
+        }
+        [data-tooltip]:hover:before, [data-tooltip]:hover:after {
+        visibility: visible;
+        opacity: 1;
+        }
+        [data-tooltip]:after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.7) transparent transparent transparent;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s ease;
+        }
+        </style>
+        </head>
+        <body>
+        
+                <div class="entry speaker1" data-tooltip='environment (0.60), safety (0.58)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Okay. Alright well, good evening everybody.</p>
+                    <span class="timestamp">00:00:00</span>
+                </div>
+                
+                <div class="entry speaker1" data-tooltip='environment (0.60), safety (0.57)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Welcome Elon. Thanks for being here.</p>
+                    <span class="timestamp">00:00:00</span>
+                </div>
+                
+                <div class="entry speaker1" data-tooltip='environment (0.74), safety (0.67)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Uh we feel we feel very privileged we're excited to have you. Right so, I'm gonna start with some questions and then we're gonna open it up.</p>
+                    <span class="timestamp">00:00:00</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Let me get straight into it. So Bill Gates said there is no one in our time who has done more to push the bounds of science innovation than you.</p>
+                    <span class="timestamp">00:00:00</span>
+                </div>
+                
+                <div class="entry speaker1" data-tooltip='environment (0.51)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Yeah well, that's it. That's a nice thing to have s anyone say about you.</p>
+                    <span class="timestamp">00:00:00</span>
+                </div>
+                
+                <div class="entry speaker1" data-tooltip='AI (0.99), safety (0.99)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Nice coming from Bill Gates. But oddly enough, when it comes to A.I. actually for around a decade, you've almost been doing the opposite and saying hang on we need to think about what we're doing and what we're pushing here and what do we do to make this safe and and actually maybe we shouldn't be pushing as faster uh as hard as we are.</p>
+                    <span class="timestamp">00:00:00</span>
+                </div>
+                
+                <div class="entry speaker1">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 1</span>
+                    <p>Like I mean you've been doing it for a decade. Like what was it that caused you to think about it that way and you know why do we need to be worried?</p>
+                    <span class="timestamp">00:00:00</span>
+                </div>
+                
+                <div class="entry speaker2" data-tooltip='AI (0.99), safety (0.47), environment (0.41)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>With A.I. of it since I was immersed in um technology I have been immersed in technology for a long time I could see it coming. Um so uh but I think this year was uh that there've been a number of of breakthroughs.</p>
+                    <span class="timestamp">00:00:59</span>
+                </div>
+                
+                <div class="entry speaker2">
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>I mean w you know the point at which someone can see a dynamically created video of themselves um you know like it sorta could make a video of you saying anything in real time um or me um and uh so that sort of the the deep pick video is which are really incredibly good in sometimes more convincing than real ones um and a bit deep real um and um and then and then obviously th things like charge E.V.T. were were quite remarkable. Now I saw uh G.P.T. one G.P. two G.P.T. three G.P.T. four that th you know the whole sort of lead up to that.</p>
+                    <span class="timestamp">00:00:59</span>
+                </div>
+                
+                <div class="entry speaker2" data-tooltip='AI (0.97)'>
+                    <span class="speaker-icon"></span>
+                    <span class="speaker">Speaker 2</span>
+                    <p>So it was easy for me to um to kind of s see where it's going. If you just sort of extrapolate the points on a curve, kind of seeing that trend will continue, then we will have um profound artificial intelligence and</p>
+                    <span class="timestamp">00:00:59</span>
+                </div>
+                
+        </body>
+        </html>
+        
