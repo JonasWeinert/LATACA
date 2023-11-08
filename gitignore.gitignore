@@ -10,3 +10,6 @@
 
 # Exclude all HTML files
 *.html
+
+# Exclude Mac OS log bullshit
+*.DS_Store
