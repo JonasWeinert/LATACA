@@ -20,7 +20,7 @@ Project LATACA is designed to facilitate automatic transcription of interviews a
 3. **Conda Environment**:
    - Navigate to the project directory:
      ```
-     cd *PATH_TO_YOUR_CLONE*
+     cd ***PATH_TO_YOUR_CLONE***
      ```
    - Create a conda environment using the `environment.yaml` file provided in the repository:
      ```
