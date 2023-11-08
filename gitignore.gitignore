@@ -1,0 +1,12 @@
+
+# Exclude all CSS files
+*.css
+
+# Exclude all JSON files
+*.json
+
+# Exclude all Word documents
+*.docx
+
+# Exclude all HTML files
+*.html
