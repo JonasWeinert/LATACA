@@ -100,13 +100,14 @@ if uploaded_file is not None:
     if 'result.json' is not None:
         st.success('Transcription complete')
     st.markdown('----------')
-st.subheader('Data Processing')
-custom = st.number_input('Unit of analysis - enter number of sentences that will be used as the unit for classification by the ML model:', value=2, step=1)
-# Get user input for labels
-labels_input = st.text_input('Enter codes for the content analysis separated by commas', 'AI, safety, environment, gender')
-# Split the input string into a list of labels
-labels = [label.strip() for label in labels_input.split(',')]
-conflevel = st.number_input('Confidence level - enter the minimum confidence level at which the ML model should assign a code to a segment. This usually takes some experimentation:', value=0.4, step=0.1, min_value=0.1, max_value=1.0)
+with st.expander("Settings"):
+    st.subheader('Data Processing')
+    custom = st.number_input('Unit of analysis - enter number of sentences that will be used as the unit for classification by the ML model:', value=2, step=1)
+    # Get user input for labels
+    labels_input = st.text_input('Enter codes for the content analysis separated by commas', 'AI, safety, environment, gender')
+    # Split the input string into a list of labels
+    labels = [label.strip() for label in labels_input.split(',')]
+    conflevel = st.number_input('Confidence level - enter the minimum confidence level at which the ML model should assign a code to a segment. This usually takes some experimentation:', value=0.4, step=0.1, min_value=0.1, max_value=1.0)
 
 
 ################# Transcript Export #################
