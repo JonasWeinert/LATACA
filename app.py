@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 custom = 2
-
+progress = 0
 
 # Start Front End interface
 st.set_page_config(page_title='LATACA', page_icon="🧡", layout="wide")
@@ -30,9 +30,13 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 # Set Front End appearance
 st.title('Local Automated Transcription and Content Analysis') # Title
 st.markdown('This app automatically transcribes interviews (ASR) & can apply coding schemes for sentiment analysis.') # First paragraph
-st.subheader('Upload your Interview') # Upload prompt
-st.markdown('Please slect your interview:') # First paragraph
-uploaded_file = st.file_uploader('Choose your Interview') # Save file to memory for duration of session
+st.subheader('Setup') # Upload prompt
+
+hcol1, hcol2 = st.columns(2)
+
+
+with hcol1:
+    uploaded_file = st.file_uploader('Choose your Interview') # Save file to memory for duration of session
 # Sidebar 
 with st.sidebar:
     st.title('Fancy a custom pipeline for your use case?')
@@ -80,36 +84,45 @@ def Automated_Speech_recognition(uploaded_file):
 
     # Transcribe
     model = whisper.load_model("small.en-tdrz")
+
     result = whisper.transcribe(model, saved_path, verbose=True, condition_on_previous_text=True)
 
     # Save the result to 'result.json'
     with open(resulttrans, 'w') as json_file:
         json.dump(result, json_file, ensure_ascii=False, indent=4)
+    
+    progress = 1
 
     return result  # You may return the result or a path to the saved file
 
 # Only call the processing function if the file is uploaded
 
+
 if uploaded_file is not None:
+    st.warning("You can view the progress of the transcription in your console/ terminal.")
     # Save the uploaded file to disk
     saved_path = save_uploadedfile(uploaded_file)
 
     # Transcribe
     model = whisper.load_model("small.en-tdrz")
     result = Automated_Speech_recognition(uploaded_file)
+    
     with open(resulttrans, 'w') as json_file:
         json.dump(result, json_file, ensure_ascii=False, indent=4)
     if resulttrans is not None:
         st.success('Transcription complete')
     st.markdown('----------')
-with st.expander("Settings"):
-    st.subheader('Data Processing')
-    custom = st.number_input('Unit of analysis - enter number of sentences that will be used as the unit for classification by the ML model:', value=2, step=1)
-    # Get user input for labels
-    labels_input = st.text_input('Enter codes for the content analysis separated by commas', 'AI, safety, environment, gender')
-    # Split the input string into a list of labels
-    labels = [label.strip() for label in labels_input.split(',')]
-    conflevel = st.number_input('Confidence level - enter the minimum confidence level at which the ML model should assign a code to a segment. This usually takes some experimentation:', value=0.4, step=0.1, min_value=0.1, max_value=1.0)
+
+with hcol2:
+    st.markdown(' ')
+    st.markdown(' ')
+    with st.expander("Content Analysis Configuration", expanded=False):
+        custom = st.number_input('Unit of analysis - enter number of sentences that will be used as the unit for classification by the ML model:', value=2, step=1)
+        # Get user input for labels
+        labels_input = st.text_input('Enter codes for the content analysis separated by commas', 'AI, safety, environment, gender')
+        # Split the input string into a list of labels
+        labels = [label.strip() for label in labels_input.split(',')]
+        conflevel = st.number_input('Confidence level - enter the minimum confidence level at which the ML model should assign a code to a segment. This usually takes some experimentation:', value=0.4, step=0.1, min_value=0.1, max_value=1.0)
 
 
 ################# Transcript Export #################
@@ -770,8 +783,8 @@ with tab1:
 ################# Footer #################
 st.markdown('---')
 with st.expander("Privacy and legal note"):
-    st.markdown('Functional Cookies: ODK Cleaning Code Generator uses functional cookies to enhance your user experience on our webapp. These cookies are essential for the basic functionality of the webapp, such as remembering your preferences, providing security, and improving site performance. No personal data is collected. Please note that by using this webapp, you agree to this use of functional cookies. You can, however, disable cookies through your browser settings, but this may affect the functionality of the webapp. Legal Note: ODK Cleaning Code Generator is provided "as is" without any representations or warranties, express or implied. ODK Cleaning Code Generator makes no representations or warranties in relation to the information, services, or materials provided on our webapp. ODK Cleaning Code Generator does not accept liability for any inaccuracies, errors, or omissions in the information, services, or materials provided on our webapp. By using this webapp, you acknowledge that the information and services may contain inaccuracies or errors, and ODK Cleaning Code Generator expressly excludes liability for any such inaccuracies or errors to the fullest extent permitted by law. ODK Cleaning Code Generator is not responsible or liable for any outcomes or consequences resulting from the use of the webapp or any of its features. You agree that your use of the webapp is at your sole risk, and you assume full responsibility for any decisions or actions taken based on the information or materials provided. By using ODK Cleaning Code Generator, you agree to indemnify, defend, and hold harmless ODK Cleaning Code Generator and its creator from and against any and all claims, liabilities, damages, losses, or expenses, including reasonable attorneys fees and costs, arising out of or in any way connected with your access to or use of the webapp.')
-
+    st.markdown("")
+    st.markdown("This app does not store any data. All data is processed locally on your device. No data is shared with third parties.")
 
 
     
