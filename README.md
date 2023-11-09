@@ -1,3 +1,4 @@
+![](https://github.com/JonasWeinert/LATACA/blob/02df74c07724ba332ec597ef9a6e6476c056dd3c/Screenshot%202023-11-09%20at%2000.01.00.png)
 # Project LATACA: Local Automated Transcription and Content Analysis
 
 ## Overview
