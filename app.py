@@ -29,7 +29,7 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 ################### Front End ###################
 # Set Front End appearance
 st.title('Local Automated Transcription and Content Analysis') # Title
-st.markdown('This app automatically transcribes interviews (ASR) & can apply coding schemes for sentiment analysis.') # First paragraph
+st.markdown('This app automatically transcribes interviews (ASR) & can apply coding schemes for semantic analysis.') # First paragraph
 st.subheader('Setup') # Upload prompt
 
 hcol1, hcol2 = st.columns(2)
